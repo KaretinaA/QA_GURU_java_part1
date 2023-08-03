@@ -19,5 +19,11 @@ public class Main {
         else {
             System.out.println("Условие не выполнено");
         }
+        double h = 0.08;
+        int l = 3;
+        System.out.println(h + l/2);
+
+        int cat = Integer.MAX_VALUE;
+        System.out.println("Переполнить" + (cat+1));
     }
 }
